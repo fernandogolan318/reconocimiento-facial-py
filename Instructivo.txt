@@ -1,0 +1,26 @@
+Abre VS Code y asegúrate de tener instalada la extensión de Python. Si no la tienes, puedes instalarla desde el menú de extensiones en la barra lateral izquierda de VS Code.
+
+Crea un nuevo archivo en VS Code haciendo clic en "Archivo" en la barra de menú superior y luego en "Nuevo archivo". Guarda el archivo con un nombre descriptivo y una extensión .py (por ejemplo, "reconocimiento_monedas.py").
+
+Copia y pega el código de contadormonedas.
+
+En la primera línea de tu código, se importa la biblioteca "cv2", que es la biblioteca de OpenCV para Python. Si no tienes instalada esta biblioteca, tendrás que instalarla primero. Abre una terminal (puedes hacerlo desde la barra de menú superior en VS Code haciendo clic en "Terminal" y luego en "Nueva terminal") y escribe el siguiente comando:
+
+pip install opencv-python
+
+Esto instalará la biblioteca de OpenCV para Python.
+
+Ahora que tienes todo lo que necesitas instalado, puedes ejecutar el código. Para hacerlo, ve al menú de "Depuración" en la barra de menú superior y haz clic en "Iniciar depuración" (o presiona F5 en tu teclado). Esto ejecutará tu código y mostrará los resultados en ventanas emergentes.
+
+Si quieres ver el resultado en la ventana de tu interfaz gráfica de usuario (GUI), asegúrate de tener instalada la biblioteca de tkinter. Puedes verificar si la tienes instalada escribiendo el siguiente comando en la terminal:
+
+python -m tkinter
+
+Si no tienes instalada la biblioteca, deberás instalarla escribiendo el siguiente comando en la terminal:
+
+pip install tkinter
+
+Una vez que tengas la biblioteca tkinter instalada, podrás ver el resultado de tu código en una ventana emergente. 
+
+Ahora, para ejecutar tu código con la GUI, ve al menú de "Depuración" en la barra de menú superior y haz clic en "Iniciar depuración" con la opción "Python: Current File (Integrated Terminal)" seleccionada. Esto ejecutará tu código y mostrará los resultados en las ventanas emergentes y en la ventana de la GUI.
+Con estos pasos, deberías poder ejecutar el código de reconocimiento de imágenes en VS Code. ¡Buena suerte!
